@@ -1,7 +1,6 @@
-# Design-of-Hardware-level-Security-Wrapper-for-Serial-Communication
 # Design and Comparative Analysis of Security Modules for Serial Communication using Verilog HDL
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on the **design, implementation, and comparative evaluation of individual hardware security modules** for UART-based serial communication using Verilog HDL. Instead of proposing a single monolithic secure protocol, this work explores multiple lightweight security techniques independently and evaluates their hardware efficiency.
 
 Each security mechanism is designed as a **standalone RTL module**, synthesized individually, and analyzed in terms of **area, power, and timing**, to understand the trade-offs between different approaches for securing serial communication in embedded systems.
