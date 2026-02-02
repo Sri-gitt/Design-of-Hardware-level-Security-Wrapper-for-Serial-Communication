@@ -91,4 +91,29 @@ This comparison highlights the **trade-off between security strength and hardwar
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+├── uart/
+│ ├── uart_tx.v
+│ ├── uart_rx.v
+│ └── baud_gen.v
+├── crc/
+│ └── crc_keyed.v
+├── replay/
+│ ├── replay_counter_tx.v
+│ └── replay_counter_rx.v
+├── aes/
+│ └── aes_core.v
+├── keygen/
+│ └── lfsr_key_gen.v
+├── testbench/
+│ ├── tb_uart.v
+│ ├── tb_crc.v
+│ ├── tb_replay.v
+│ ├── tb_aes.v
+│ └── tb_keygen.v
+└── reports/
+├── uart_reports/
+├── crc_reports/
+├── replay_reports/
+├── aes_reports/
+└── keygen_reports/
